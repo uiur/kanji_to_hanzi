@@ -6,6 +6,11 @@ KanjiToHanzi.kanji_to_simplified('焼肉')
 #=> '烧肉'
 KanjiToHanzi.kanji_to_traditional('焼肉')
 #=> '燒肉'
+
+KanjiToHanzi.simplified_to_kanji('烧肉')
+#=> '焼肉'
+KanjiToHanzi.traditional_to_kanji('燒肉')
+#=> '焼肉'
 ```
 
 The chinese character mapping table is attributed to:
